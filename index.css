@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    text-align: center;
+    font-family: Arial;
+}
+/* first section. */
+header{
+    width: 100%;
+    height: 343px;
+    background-image: url("/images/baalbek.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right:auto ;
+    margin-left:auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+header h1{
+    background-color: #1D3557;
+}
+header p{
+    background: #457B9D;
+    margin: 10px 100px;
+   }
+header h1,header p{
+    border-radius: 20px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+/* second section. */
+main{
+    width: 100%;
+    height: 70%;
+    background-color: #F1FAEE;
+    margin: 0px;
+    color: #1D3557;
+    padding: 10px;
+}
+main h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 20px;
+}
+main h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+main p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+main .activities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .activities div{
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+main .activities img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+main .activities div:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* final section */
+footer{
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 400px;
+    color: #1D3557;
+}
+footer .guideSection{
+    width: 400px;
+    height: 300px;
+    background-color: #A8DADC;
+    display: flex;
+    box-shadow: 0px 6px 0px 0px #1D3557;
+    margin:50px auto;
+    align-items: center;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+footer .guideSection img{
+    width: 180px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 10px;
+}
+footer .guideSection div{
+padding: 20px;
+}
+footer h1{
+    font-size: 2rem;
+}
+footer h3{
+    font-size: 1rem;
+}
+footer .guideSection:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
