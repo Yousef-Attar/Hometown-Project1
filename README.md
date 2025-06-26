@@ -44,15 +44,6 @@ This webpage introduces Baalbek as a travel destination. It highlights the city'
 
 ---
 
-## 🏖️ Live Preview
-
-If deployed, you can view the project at:  
-🔗 [https://your-username.github.io/hometown-project](https://your-username.github.io/hometown-project)
-
-> *(Make sure to enable GitHub Pages from your repo settings to activate this link.)*
-
----
-
 ## 📚 What I Learned
 
 - Structuring HTML documents from scratch
